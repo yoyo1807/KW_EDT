@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6617806e-ab88-4a38-9065-7d7f22a644ce">
+  <producedTypes>
+    <objectType typeId="e507b8ff-a19e-41f4-94cb-c98d9b06cb65" valueTypeId="6b791731-8569-49eb-8842-df9a2789867c"/>
+    <refType typeId="6b7f2af0-9048-4483-8dd3-d4a63e144acf" valueTypeId="9dc96244-2e77-4af5-9a30-840d1aa53003"/>
+    <selectionType typeId="f774e091-6adb-4f32-846c-98d299c4a0d1" valueTypeId="3399c6c5-032f-4b56-bce8-a1885eb383f3"/>
+    <listType typeId="7acad154-982d-41d3-8ae3-d584fe3f61d5" valueTypeId="cae41c36-f17b-448b-a7c0-679365ff9cd0"/>
+    <managerType typeId="4d01133d-a68f-4f3c-8c78-16be61a11015" valueTypeId="3574cbbb-ce3d-47a9-9329-60b559e3bd3b"/>
+  </producedTypes>
+  <name>ДЗ_ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу (ДЗ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДЗ_ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Прием на работу (ДЗ)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Прием на работу (ДЗ)</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="351f0746-54a6-4690-a767-f165b5fc02dc">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
