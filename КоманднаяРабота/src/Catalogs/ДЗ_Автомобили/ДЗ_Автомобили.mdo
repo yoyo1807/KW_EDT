@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="829fc84f-918d-4cd8-be7a-7c745abe4628">
+  <producedTypes>
+    <objectType typeId="60f8dc85-0979-4552-ae0e-de6589870ecd" valueTypeId="56973211-0533-4fdf-a481-419fb727275c"/>
+    <refType typeId="c61dcf37-7570-479a-a381-24d774cdf776" valueTypeId="e58856aa-d8c8-427a-9630-252dc112a47d"/>
+    <selectionType typeId="9f9d7ae0-3e7a-43b8-8fd4-1c85ac6c5eab" valueTypeId="3c21e442-9802-4fc1-872e-9d89b68fe5bd"/>
+    <listType typeId="d5ca1f72-70bc-41f9-8e25-2695a68d1f55" valueTypeId="c9fecdfb-06d8-4b6a-a842-05aedcce9ba7"/>
+    <managerType typeId="8c461b42-b202-4c8a-b4a3-6fb170bb750e" valueTypeId="a42ce2f9-f8c2-49a0-8d38-deae9e90eac0"/>
+  </producedTypes>
+  <name>ДЗ_Автомобили</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомобиль (ДЗ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗ_Автомобили.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗ_Автомобили.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Автомобиль</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Автомобили</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
