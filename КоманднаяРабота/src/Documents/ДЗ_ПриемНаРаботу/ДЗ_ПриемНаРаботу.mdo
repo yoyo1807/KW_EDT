@@ -27,7 +27,7 @@
     <value>Прием на работу (ДЗ)</value>
   </listPresentation>
   <numberType>String</numberType>
-  <numberLength>9</numberLength>
+  <numberLength>15</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
